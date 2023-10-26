@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController //insertar @Res -> anotacion
-@RequestMapping("/desserts")// permite traer un url
+@RequestMapping("/Users")// permite traer un url
 public class UserController {
     @Autowired// inyeccion de independencias
     private IUserService dS;// enlasa mi capa contorladora con mi capa service
